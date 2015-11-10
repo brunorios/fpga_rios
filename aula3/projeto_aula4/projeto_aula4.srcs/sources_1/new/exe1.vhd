@@ -17,7 +17,8 @@ ARCHITECTURE bhv OF aula3 IS
 
 signal in_mux : std_logic_vector(2 downto 0);
 signal ss_mux : std_logic_vector(1 downto 0);
-signal out_mux : std_logic;
+signal out_mux1 : std_logic;
+signal out_mux2 : std_logic;
 
 BEGIN
 
@@ -25,17 +26,30 @@ BEGIN
     process(ss_mux, in_mux)
     begin
         if(ss_mux = "00") then
-            out_mux <= in_mux(0);
+            out_mux1 <= in_mux(0);
         elsif (ss_mux = "01") then
-            out_mux <= in_mux(1);
+            out_mux1 <= in_mux(1);
         else
-            out_mux <= in_mux(2);
+            out_mux1 <= in_mux(2);
         end if;
+    end process;
+    
+    process(ss_mux, in_mux)
+    begin
+        case ss_mux is
+            when "00" =>
+                        out_mux2 <= in_mux(0);
+            when "01" =>
+                        out_mux2 <= in_mux(1);
+            when OTHERS =>
+                        out_mux2 <= in_mux(2);
+        end case;
     end process;
     
     -- Concorrente
     ss_mux <= sw(4 downto 3);
     in_mux <= sw(2 downto 0);
-    led(0) <= out_mux;
+    led(0) <= out_mux1;
+    led(1) <= out_mux2;
 
 END bhv;
