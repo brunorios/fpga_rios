@@ -8,11 +8,11 @@ generic(
     f7s : natural := 100 -- frequencia de atualizacao dos displays (Hz)
 );
 port(
-    CLK : in STD_LOGIC;
+    clk : in STD_LOGIC;
     btnCpuReset : in STD_LOGIC;
-    LED : out STD_LOGIC_VECTOR (15 downto 0);
-    SEG : out STD_LOGIC_VECTOR (6 downto 0);
-    AN : out STD_LOGIC_VECTOR (7 downto 0) := X"00";
+    led : out STD_LOGIC_VECTOR (15 downto 0);
+    seg : out STD_LOGIC_VECTOR (6 downto 0);
+    an : out STD_LOGIC_VECTOR (7 downto 0) := X"00";
     dp : out STD_LOGIC
 );
 end SS_controller;
