@@ -51,6 +51,16 @@ constant half_period : time := 0.1 ms;   -- 10Khz
 begin
 
     -- Aqui mapeamos o compomente
+    debounce1 : debounce
+        generic map(
+            fclk => 10_000,
+            tdb => 20
+        )
+        port map(
+            clk => clk,
+            btn_in => btn_in,
+            btn_out => btn_out
+        );
 
             
 --------------------------
