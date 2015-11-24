@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:15:54 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Mon Oct 26 21:47:58 2015
+# Process ID: 3020
+# Log file: T:/fpga_rios/aula2/project_1/project_1.runs/synth_1/exe2.vds
+# Journal file: T:/fpga_rios/aula2/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source exe2.tcl

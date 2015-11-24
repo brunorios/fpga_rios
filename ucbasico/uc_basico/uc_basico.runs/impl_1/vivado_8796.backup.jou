@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:15:54 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Mon Nov 23 21:16:01 2015
+# Process ID: 4280
+# Log file: T:/fpga_rios/ucbasico/uc_basico/uc_basico.runs/impl_1/uc_basico_wrapper.vdi
+# Journal file: T:/fpga_rios/ucbasico/uc_basico/uc_basico.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source uc_basico_wrapper.tcl -notrace

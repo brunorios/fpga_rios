@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1447712689">
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="PWROPT-DCP" Name="pisca_led_pwropt.dcp"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DRC" Name="pisca_led_drc_opted.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="pisca_led_timing_summary_routed.pb"/>
+  <File Type="PA-TCL" Name="pisca_led.tcl"/>
+  <File Type="OPT-DCP" Name="pisca_led_opt.dcp"/>
+  <File Type="PWROPT-DRC" Name="pisca_led_drc_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="pisca_led_placed.dcp"/>
+  <File Type="PLACE-IO" Name="pisca_led_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="pisca_led_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="pisca_led_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="pisca_led_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="pisca_led_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="pisca_led_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="pisca_led_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="pisca_led_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="pisca_led_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="pisca_led_drc_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="pisca_led_routed.dcp"/>
+  <File Type="ROUTE-DRC" Name="pisca_led_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="pisca_led_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="pisca_led_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="pisca_led_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="pisca_led_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="pisca_led_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="pisca_led_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="pisca_led_incremental_reuse_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="pisca_led_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="pisca_led_timing_summary_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="pisca_led.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="pisca_led_timing_summary_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="pisca_led.bit"/>
+  <File Type="BG-BIN" Name="pisca_led.bin"/>
+  <File Type="BITSTR-MSK" Name="pisca_led.msk"/>
+  <File Type="BITSTR-RBT" Name="pisca_led.rbt"/>
+  <File Type="BITSTR-NKY" Name="pisca_led.nky"/>
+  <File Type="BITSTR-BMM" Name="pisca_led_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="pisca_led.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="$PSDKDIR/SDK/SDK_Export/hw/pisca_led.sysdef"/>
+  <File Type="BG-BGN" Name="pisca_led.bgn"/>
+  <File Type="BG-DRC" Name="pisca_led.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Problemas/io_basico.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Logica-Programavel/Aulas/Problemas/io_basico.xdc"/>
+        <Attr Name="ImportTime" Val="1447104285"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

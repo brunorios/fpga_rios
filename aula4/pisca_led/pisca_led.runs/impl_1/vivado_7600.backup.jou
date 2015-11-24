@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:15:54 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Mon Nov 16 20:21:34 2015
+# Process ID: 6012
+# Log file: T:/fpga_rios/aula4/pisca_led/pisca_led.runs/impl_1/pisca_led.vdi
+# Journal file: T:/fpga_rios/aula4/pisca_led/pisca_led.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source pisca_led.tcl -notrace

@@ -1,0 +1,107 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:15:54 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Mon Nov 23 21:24:34 2015
+# Process ID: 6236
+# Log file: T:/fpga_rios/ucbasico/uc_basico/uc_basico.runs/synth_1/toplevel.vds
+# Journal file: T:/fpga_rios/ucbasico/uc_basico/uc_basico.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source toplevel.tcl
+# set_param gui.test TreeTableDev
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# set_msg_config -id {Labtools 27-147} -limit 4294967295
+# set_msg_config -id {Synth 8-256} -limit 10000
+# set_msg_config -id {Synth 8-638} -limit 10000
+# create_project -in_memory -part xc7a100tcsg324-1
+# set_property target_language VHDL [current_project]
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_property default_lib xil_defaultlib [current_project]
+# add_files T:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/uc_basico.bd
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.1/data/ip'.
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_microblaze_0_0/uc_basico_microblaze_0_0.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_microblaze_0_0/uc_basico_microblaze_0_0_ooc.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_axi_gpio_0_0/uc_basico_axi_gpio_0_0_ooc.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_axi_gpio_0_0/uc_basico_axi_gpio_0_0.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_axi_gpio_0_0/uc_basico_axi_gpio_0_0_board.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_axi_gpio_1_0/uc_basico_axi_gpio_1_0_ooc.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_axi_gpio_1_0/uc_basico_axi_gpio_1_0.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_axi_gpio_1_0/uc_basico_axi_gpio_1_0_board.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_dlmb_v10_0/uc_basico_dlmb_v10_0.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_dlmb_v10_0/uc_basico_dlmb_v10_0_ooc.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_ilmb_v10_0/uc_basico_ilmb_v10_0.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_ilmb_v10_0/uc_basico_ilmb_v10_0_ooc.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_dlmb_bram_if_cntlr_0/uc_basico_dlmb_bram_if_cntlr_0_ooc.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_ilmb_bram_if_cntlr_0/uc_basico_ilmb_bram_if_cntlr_0_ooc.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_lmb_bram_0/uc_basico_lmb_bram_0_ooc.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_mdm_1_0/uc_basico_mdm_1_0.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_mdm_1_0/uc_basico_mdm_1_0_ooc.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_clk_wiz_1_0/uc_basico_clk_wiz_1_0.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_clk_wiz_1_0/uc_basico_clk_wiz_1_0_ooc.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_clk_wiz_1_0/uc_basico_clk_wiz_1_0_board.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_rst_clk_wiz_1_100M_0/uc_basico_rst_clk_wiz_1_100M_0.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_rst_clk_wiz_1_100M_0/uc_basico_rst_clk_wiz_1_100M_0_ooc.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_rst_clk_wiz_1_100M_0/uc_basico_rst_clk_wiz_1_100M_0_board.xdc]
+# set_property used_in_implementation false [get_files -all t:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/ip/uc_basico_xbar_0/uc_basico_xbar_0_ooc.xdc]
+# set_property used_in_implementation false [get_files -all T:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/uc_basico_ooc.xdc]
+# set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
+# set_property is_locked true [get_files T:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/uc_basico.bd]
+# read_vhdl -library xil_defaultlib {
+#   T:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/hdl/uc_basico_wrapper.vhd
+#   T:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/new/toplevel.vhd
+# }
+# read_xdc T:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/constrs_1/imports/Problemas/io_basico.xdc
+# set_property used_in_implementation false [get_files T:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/constrs_1/imports/Problemas/io_basico.xdc]
+# read_xdc dont_touch.xdc
+# set_property used_in_implementation false [get_files dont_touch.xdc]
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir T:/fpga_rios/ucbasico/uc_basico/uc_basico.cache/wt [current_project]
+# set_property parent.project_dir T:/fpga_rios/ucbasico/uc_basico [current_project]
+# synth_design -top toplevel -part xc7a100tcsg324-1
+Command: synth_design -top toplevel -part xc7a100tcsg324-1
+
+Starting synthesis...
+
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 283.691 ; gain = 149.973
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'toplevel' [T:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/new/toplevel.vhd:23]
+INFO: [Synth 8-3491] module 'uc_basico_wrapper' declared at 'T:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/hdl/uc_basico_wrapper.vhd:14' bound to instance 'u1' of component 'uc_basico_wrapper' [T:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/new/toplevel.vhd:42]
+ERROR: [Synth 8-3493] module 'uc_basico_wrapper' declared at 'T:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/hdl/uc_basico_wrapper.vhd:14' does not have matching formal port for component port 'gpio_led_tri_o' [T:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/new/toplevel.vhd:42]
+ERROR: [Synth 8-3493] module 'uc_basico_wrapper' declared at 'T:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/bd/uc_basico/hdl/uc_basico_wrapper.vhd:14' does not have matching formal port for component port 'gpio_sw_tri_i' [T:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/new/toplevel.vhd:42]
+ERROR: [Synth 8-285] failed synthesizing module 'toplevel' [T:/fpga_rios/ucbasico/uc_basico/uc_basico.srcs/sources_1/new/toplevel.vhd:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:01:01 ; elapsed = 00:01:04 . Memory (MB): peak = 419.508 ; gain = 285.789
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+    while executing
+"rt::run_rtlelab -module $rt::top"
+    invoked from within
+"if {$rt::useElabCache == false} {
+      rt::run_rtlelab -module $rt::top
+    }"
+    ("uplevel" body line 385)
+    invoked from within
+"uplevel #0 {
+    set ::env(BUILTIN_SYNTH) true
+    source $::env(HRT_TCL_PATH)/rtSynthPrep.tcl
+    set rt::cmdEcho 0
+    rt::set_parameter writeXmsg t..."
+ERROR: [Common 17-39] 'source' failed due to earlier errors.
+INFO: [Common 17-83] Releasing license: Synthesis
+4 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+ERROR: [Common 17-39] 'source' failed due to earlier errors.
+
+    while executing
+"source -notrace {./.Xil/Vivado-6236-J309-B4/realtime\toplevel.tcl}"
+    invoked from within
+"synth_design -top toplevel -part xc7a100tcsg324-1"
+    (file "toplevel.tcl" line 57)
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 23 21:25:38 2015...

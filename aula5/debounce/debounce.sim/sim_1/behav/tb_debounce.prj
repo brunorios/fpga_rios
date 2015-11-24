@@ -1,0 +1,2 @@
+vhdl xil_defaultlib "T:/fpga_rios/aula5/debounce/debounce.srcs/sim_1/imports/8-9 problemas/debounce_tb.vhd"
+verilog xil_defaultlib "C:/Xilinx/Vivado/2014.1/data/verilog/src/glbl.v"

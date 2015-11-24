@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:15:54 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Mon Nov 16 22:16:17 2015
+# Process ID: 2468
+# Log file: T:/fpga_rios/aula4/display_7seg/display_7seg.runs/synth_1/SS_controller.vds
+# Journal file: T:/fpga_rios/aula4/display_7seg/display_7seg.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source SS_controller.tcl
