@@ -47,14 +47,14 @@ Phase %s%s
 101*constraints2
 1 2default:default2#
 Build RT Design2default:defaultZ18-101
-9
--Phase 1 Build RT Design | Checksum: 6ea514f9
+:
+.Phase 1 Build RT Design | Checksum: 1c24dfb5c
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:30 ; elapsed = 00:00:27 . Memory (MB): peak = 1098.332 ; gain = 114.7502default:default
+]Time (s): cpu = 00:00:36 ; elapsed = 00:00:32 . Memory (MB): peak = 1100.219 ; gain = 115.1052default:default
 m
 
 Phase %s%s
@@ -67,55 +67,55 @@ Phase %s%s
 101*constraints2
 2.1 2default:default2 
 Create Timer2default:defaultZ18-101
-8
-,Phase 2.1 Create Timer | Checksum: 6ea514f9
+9
+-Phase 2.1 Create Timer | Checksum: 1c24dfb5c
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:30 ; elapsed = 00:00:27 . Memory (MB): peak = 1098.332 ; gain = 114.7502default:default
+]Time (s): cpu = 00:00:36 ; elapsed = 00:00:32 . Memory (MB): peak = 1100.219 ; gain = 115.1052default:default
 g
 
 Phase %s%s
 101*constraints2
 2.2 2default:default2!
 Update Timing2default:defaultZ18-101
-9
--Phase 2.2 Update Timing | Checksum: 7a0b9b24
+:
+.Phase 2.2 Update Timing | Checksum: 1109f9132
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:32 ; elapsed = 00:00:28 . Memory (MB): peak = 1119.848 ; gain = 136.2662default:default
+]Time (s): cpu = 00:00:38 ; elapsed = 00:00:33 . Memory (MB): peak = 1111.625 ; gain = 126.5122default:default
 ~
 Estimated Timing Summary %s
 57*route2J
-6| WNS=12.5   | TNS=0      | WHS=-0.145 | THS=-37.8  |
+6| WNS=11.7   | TNS=0      | WHS=-0.433 | THS=-389   |
 2default:defaultZ35-57
-?
-3Phase 2 Router Initialization | Checksum: 7a0b9b24
+@
+4Phase 2 Router Initialization | Checksum: 1109f9132
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:32 ; elapsed = 00:00:29 . Memory (MB): peak = 1119.848 ; gain = 136.2662default:default
+]Time (s): cpu = 00:00:39 ; elapsed = 00:00:34 . Memory (MB): peak = 1111.625 ; gain = 126.5122default:default
 g
 
 Phase %s%s
 101*constraints2
 3 2default:default2#
 Initial Routing2default:defaultZ18-101
-9
--Phase 3 Initial Routing | Checksum: c89bb326
+:
+.Phase 3 Initial Routing | Checksum: 122a8e442
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:33 ; elapsed = 00:00:29 . Memory (MB): peak = 1119.848 ; gain = 136.2662default:default
+]Time (s): cpu = 00:00:39 ; elapsed = 00:00:34 . Memory (MB): peak = 1111.625 ; gain = 126.5122default:default
 j
 
 Phase %s%s
@@ -135,26 +135,26 @@ Phase %s%s
 4.1.1 2default:default2!
 Update Timing2default:defaultZ18-101
 ;
-/Phase 4.1.1 Update Timing | Checksum: d72e1f9b
+/Phase 4.1.1 Update Timing | Checksum: c97f31a2
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 1119.848 ; gain = 136.2662default:default
+]Time (s): cpu = 00:00:41 ; elapsed = 00:00:35 . Memory (MB): peak = 1111.625 ; gain = 126.5122default:default
 ~
 Estimated Timing Summary %s
 57*route2J
-6| WNS=12.6   | TNS=0      | WHS=N/A    | THS=N/A    |
+6| WNS=11.7   | TNS=0      | WHS=N/A    | THS=N/A    |
 2default:defaultZ35-57
 >
-2Phase 4.1 Global Iteration 0 | Checksum: 4ed45800
+2Phase 4.1 Global Iteration 0 | Checksum: 6493d187
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 1119.848 ; gain = 136.2662default:default
+]Time (s): cpu = 00:00:41 ; elapsed = 00:00:35 . Memory (MB): peak = 1111.625 ; gain = 126.5122default:default
 l
 
 Phase %s%s
@@ -168,34 +168,34 @@ Phase %s%s
 4.2.1 2default:default2!
 Update Timing2default:defaultZ18-101
 ;
-/Phase 4.2.1 Update Timing | Checksum: 730697b7
+/Phase 4.2.1 Update Timing | Checksum: a82ef686
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 1119.848 ; gain = 136.2662default:default
+]Time (s): cpu = 00:00:42 ; elapsed = 00:00:36 . Memory (MB): peak = 1111.625 ; gain = 126.5122default:default
 ~
 Estimated Timing Summary %s
 57*route2J
-6| WNS=12.4   | TNS=0      | WHS=N/A    | THS=N/A    |
+6| WNS=11.7   | TNS=0      | WHS=N/A    | THS=N/A    |
 2default:defaultZ35-57
 >
-2Phase 4.2 Global Iteration 1 | Checksum: 730697b7
+2Phase 4.2 Global Iteration 1 | Checksum: a82ef686
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 1119.848 ; gain = 136.2662default:default
+]Time (s): cpu = 00:00:42 ; elapsed = 00:00:36 . Memory (MB): peak = 1111.625 ; gain = 126.5122default:default
 <
-0Phase 4 Rip-up And Reroute | Checksum: 730697b7
+0Phase 4 Rip-up And Reroute | Checksum: a82ef686
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 1119.848 ; gain = 136.2662default:default
+]Time (s): cpu = 00:00:42 ; elapsed = 00:00:36 . Memory (MB): peak = 1111.625 ; gain = 126.5122default:default
 e
 
 Phase %s%s
@@ -209,26 +209,26 @@ Phase %s%s
 5.1 2default:default2!
 Update Timing2default:defaultZ18-101
 9
--Phase 5.1 Update Timing | Checksum: 730697b7
+-Phase 5.1 Update Timing | Checksum: a82ef686
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 1119.848 ; gain = 136.2662default:default
+]Time (s): cpu = 00:00:42 ; elapsed = 00:00:36 . Memory (MB): peak = 1111.625 ; gain = 126.5122default:default
 ~
 Estimated Timing Summary %s
 57*route2J
-6| WNS=12.5   | TNS=0      | WHS=N/A    | THS=N/A    |
+6| WNS=11.8   | TNS=0      | WHS=N/A    | THS=N/A    |
 2default:defaultZ35-57
 7
-+Phase 5 Delay CleanUp | Checksum: 730697b7
++Phase 5 Delay CleanUp | Checksum: a82ef686
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 1119.848 ; gain = 136.2662default:default
+]Time (s): cpu = 00:00:42 ; elapsed = 00:00:36 . Memory (MB): peak = 1111.625 ; gain = 126.5122default:default
 o
 
 Phase %s%s
@@ -236,13 +236,13 @@ Phase %s%s
 6 2default:default2+
 Clock Skew Optimization2default:defaultZ18-101
 A
-5Phase 6 Clock Skew Optimization | Checksum: 730697b7
+5Phase 6 Clock Skew Optimization | Checksum: a82ef686
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 1119.848 ; gain = 136.2662default:default
+]Time (s): cpu = 00:00:42 ; elapsed = 00:00:36 . Memory (MB): peak = 1111.625 ; gain = 126.5122default:default
 e
 
 Phase %s%s
@@ -256,26 +256,26 @@ Phase %s%s
 7.1 2default:default2!
 Update Timing2default:defaultZ18-101
 9
--Phase 7.1 Update Timing | Checksum: 730697b7
+-Phase 7.1 Update Timing | Checksum: a82ef686
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 1119.848 ; gain = 136.2662default:default
+]Time (s): cpu = 00:00:43 ; elapsed = 00:00:36 . Memory (MB): peak = 1111.625 ; gain = 126.5122default:default
 ~
 Estimated Timing Summary %s
 57*route2J
-6| WNS=12.5   | TNS=0      | WHS=0.022  | THS=0      |
+6| WNS=11.8   | TNS=0      | WHS=0.00566| THS=0      |
 2default:defaultZ35-57
 7
-+Phase 7 Post Hold Fix | Checksum: 730697b7
++Phase 7 Post Hold Fix | Checksum: a82ef686
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 1119.848 ; gain = 136.2662default:default
+]Time (s): cpu = 00:00:43 ; elapsed = 00:00:36 . Memory (MB): peak = 1111.625 ; gain = 126.5122default:default
 f
 
 Phase %s%s
@@ -283,13 +283,13 @@ Phase %s%s
 8 2default:default2"
 Route finalize2default:defaultZ18-101
 8
-,Phase 8 Route finalize | Checksum: 730697b7
+,Phase 8 Route finalize | Checksum: a82ef686
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 1119.848 ; gain = 136.2662default:default
+]Time (s): cpu = 00:00:43 ; elapsed = 00:00:36 . Memory (MB): peak = 1111.625 ; gain = 126.5122default:default
 m
 
 Phase %s%s
@@ -297,27 +297,27 @@ Phase %s%s
 9 2default:default2)
 Verifying routed nets2default:defaultZ18-101
 ?
-3Phase 9 Verifying routed nets | Checksum: 730697b7
+3Phase 9 Verifying routed nets | Checksum: a82ef686
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 1119.848 ; gain = 136.2662default:default
+]Time (s): cpu = 00:00:43 ; elapsed = 00:00:36 . Memory (MB): peak = 1111.625 ; gain = 126.5122default:default
 j
 
 Phase %s%s
 101*constraints2
 10 2default:default2%
 Depositing Routes2default:defaultZ18-101
-=
-1Phase 10 Depositing Routes | Checksum: 112979861
+<
+0Phase 10 Depositing Routes | Checksum: fbd29cf4
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:36 ; elapsed = 00:00:31 . Memory (MB): peak = 1119.848 ; gain = 136.2662default:default
+]Time (s): cpu = 00:00:43 ; elapsed = 00:00:36 . Memory (MB): peak = 1111.625 ; gain = 126.5122default:default
 k
 
 Phase %s%s
@@ -327,45 +327,45 @@ Phase %s%s
 ~
 Estimated Timing Summary %s
 57*route2J
-6| WNS=12.5   | TNS=0      | WHS=0.022  | THS=0      |
+6| WNS=11.8   | TNS=0      | WHS=0.00566| THS=0      |
 2default:defaultZ35-57
 ³
 šThe final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
 127*routeZ35-327
->
-2Phase 11 Post Router Timing | Checksum: 112979861
+=
+1Phase 11 Post Router Timing | Checksum: fbd29cf4
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:36 ; elapsed = 00:00:31 . Memory (MB): peak = 1119.848 ; gain = 136.2662default:default
+]Time (s): cpu = 00:00:44 ; elapsed = 00:00:37 . Memory (MB): peak = 1111.625 ; gain = 126.5122default:default
 4
 Router Completed Successfully
 16*routeZ35-16
-4
-(Ending Route Task | Checksum: 112979861
+3
+'Ending Route Task | Checksum: fbd29cf4
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:00 ; elapsed = 00:00:31 . Memory (MB): peak = 1119.848 ; gain = 136.2662default:default
+]Time (s): cpu = 00:00:00 ; elapsed = 00:00:37 . Memory (MB): peak = 1111.625 ; gain = 126.5122default:default
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:00 ; elapsed = 00:00:31 . Memory (MB): peak = 1119.848 ; gain = 136.2662default:default
+]Time (s): cpu = 00:00:00 ; elapsed = 00:00:37 . Memory (MB): peak = 1111.625 ; gain = 126.5122default:default
 Q
 Releasing license: %s
 83*common2"
 Implementation2default:defaultZ17-83
-¿
+½
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
-512default:default2
-702default:default2
-692default:default2
+522default:default2
+12default:default2
+02default:default2
 02default:defaultZ4-41
 U
 %s completed successfully
@@ -375,10 +375,10 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 route_design: 2default:default2
-00:00:372default:default2
-00:00:322default:default2
-1119.8482default:default2
-136.2662default:defaultZ17-268
+00:00:452default:default2
+00:00:382default:default2
+1111.6252default:default2
+126.5122default:defaultZ17-268
 4
 Writing XDEF routing.
 211*designutilsZ20-211
@@ -392,18 +392,18 @@ A
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2)
 Write XDEF Complete: 2default:default2
-00:00:012default:default2 
-00:00:00.4682default:default2
-1119.8482default:default2
+00:00:002default:default2 
+00:00:00.4912default:default2
+1111.6252default:default2
 0.0002default:defaultZ17-268
 G
 Running DRC with %s threads
 24*drc2
 22default:defaultZ23-27
-…
+ó
 #The results of DRC are in file %s.
-168*coretcl2Ä
-VT:/fpga_rios/ucbasico/uc_basico/uc_basico.runs/impl_1/uc_basico_wrapper_drc_routed.rptVT:/fpga_rios/ucbasico/uc_basico/uc_basico.runs/impl_1/uc_basico_wrapper_drc_routed.rpt2default:default8Z2-168
+168*coretcl2²
+MT:/fpga_rios/ucbasico/uc_basico/uc_basico.runs/impl_1/toplevel_drc_routed.rptMT:/fpga_rios/ucbasico/uc_basico/uc_basico.runs/impl_1/toplevel_drc_routed.rpt2default:default8Z2-168
 €
 UpdateTimingParams:%s.
 91*timing2P
@@ -418,6 +418,10 @@ G
 3
 Finished Running Vector-less Activity Propagation
 1*powerZ33-1
+¡
+âMMCM/PLL RST static_probability should be either 0 or 1, power analysis is using 0 by default.
+Use 'set_switching_activity -static_probability 1 -signal_rate 0 [get_nets %s]'  to set the static_probabiblity to '1'  if desired.207*power2$
+btnCpuReset_IBUF2default:defaultZ33-218
 
 
 End Record

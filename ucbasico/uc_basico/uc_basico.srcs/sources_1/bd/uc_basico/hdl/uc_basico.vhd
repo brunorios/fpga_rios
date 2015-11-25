@@ -1,7 +1,7 @@
 --Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2014.1 (win64) Build 881834 Fri Apr  4 14:15:54 MDT 2014
---Date        : Mon Nov 23 21:09:25 2015
+--Date        : Wed Nov 25 19:30:34 2015
 --Host        : J309-B4 running 64-bit Service Pack 1  (build 7601)
 --Command     : generate_target uc_basico.bd
 --Design      : uc_basico
@@ -1631,10 +1631,10 @@ library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 entity uc_basico is
   port (
-    clock_rtl : in STD_LOGIC;
+    clock_in1 : in STD_LOGIC;
     gpio_rtl_LED_tri_o : out STD_LOGIC_VECTOR ( 15 downto 0 );
     gpio_rtl_sw_tri_i : in STD_LOGIC_VECTOR ( 15 downto 0 );
-    reset_rtl : in STD_LOGIC
+    reset : in STD_LOGIC
   );
   attribute CORE_GENERATION_INFO : string;
   attribute CORE_GENERATION_INFO of uc_basico : entity is "uc_basico,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLanguage=VHDL,numBlks=18,numReposBlks=12,numNonXlnxBlks=0,numHierBlks=6,maxHierDepth=1,da_axi4_cnt=2,da_board_cnt=5,da_mb_cnt=1}";
@@ -1781,7 +1781,7 @@ architecture STRUCTURE of uc_basico is
   port (
     clk_in1 : in STD_LOGIC;
     clk_out1 : out STD_LOGIC;
-    reset : in STD_LOGIC;
+    resetn : in STD_LOGIC;
     locked : out STD_LOGIC
   );
   end component uc_basico_clk_wiz_1_0;
@@ -1918,9 +1918,9 @@ architecture STRUCTURE of uc_basico is
   attribute KEEP_HIERARCHY of microblaze_0 : label is "yes";
 begin
   axi_gpio_0_GPIO_TRI_I(15 downto 0) <= gpio_rtl_sw_tri_i(15 downto 0);
-  clock_rtl_1 <= clock_rtl;
+  clock_rtl_1 <= clock_in1;
   gpio_rtl_LED_tri_o(15 downto 0) <= axi_gpio_1_GPIO_TRI_O(15 downto 0);
-  reset_rtl_1 <= reset_rtl;
+  reset_rtl_1 <= reset;
 GND: unisim.vcomponents.GND
     port map (
       G => GND_1
@@ -1980,7 +1980,7 @@ clk_wiz_1: component uc_basico_clk_wiz_1_0
       clk_in1 => clock_rtl_1,
       clk_out1 => microblaze_0_Clk,
       locked => clk_wiz_1_locked,
-      reset => reset_rtl_1
+      resetn => reset_rtl_1
     );
 mdm_1: component uc_basico_mdm_1_0
     port map (

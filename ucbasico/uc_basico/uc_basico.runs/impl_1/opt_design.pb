@@ -39,12 +39,15 @@ BPlease refer to the DRC report (report_drc) for more information.
 
 %s
 *constraints2r
-^Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.234 . Memory (MB): peak = 910.262 ; gain = 0.0002default:default
+^Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.321 . Memory (MB): peak = 911.242 ; gain = 0.0002default:default
 X
 
 Starting %s Task
 103*constraints2&
 Logic Optimization2default:defaultZ18-103
+/
+Deriving generated clocks
+2*timingZ38-2
 `
 
 Phase %s%s
@@ -54,19 +57,19 @@ Phase %s%s
 C
 Pushed %s inverter(s).
 98*opt2
-12default:defaultZ31-138
+22default:defaultZ31-138
 B
 Retargeted %s cell(s).
 49*opt2
 02default:defaultZ31-49
 3
-'Phase 1 Retarget | Checksum: 1e2eb18e1
+'Phase 1 Retarget | Checksum: 18fa845db
 *common
 ‰
 
 %s
 *constraints2r
-^Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.327 . Memory (MB): peak = 910.262 ; gain = 0.0002default:default
+^Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.483 . Memory (MB): peak = 911.242 ; gain = 0.0002default:default
 l
 
 Phase %s%s
@@ -82,13 +85,13 @@ B
 10*opt2
 1692default:defaultZ31-10
 ?
-3Phase 2 Constant Propagation | Checksum: 121e9f925
+3Phase 2 Constant Propagation | Checksum: 20bd22d87
 *common
 …
 
 %s
 *constraints2n
-ZTime (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 910.262 ; gain = 0.0002default:default
+ZTime (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 911.242 ; gain = 0.0002default:default
 ]
 
 Phase %s%s
@@ -104,26 +107,26 @@ O
 11*opt2
 48232default:defaultZ31-11
 0
-$Phase 3 Sweep | Checksum: 115e12e0c
+$Phase 3 Sweep | Checksum: 14575b6eb
 *common
 …
 
 %s
 *constraints2n
-ZTime (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 910.262 ; gain = 0.0002default:default
+ZTime (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 911.242 ; gain = 0.0002default:default
 A
-5Ending Logic Optimization Task | Checksum: 115e12e0c
+5Ending Logic Optimization Task | Checksum: 14575b6eb
 *common
 …
 
 %s
 *constraints2n
-ZTime (s): cpu = 00:00:00 ; elapsed = 00:00:03 . Memory (MB): peak = 910.262 ; gain = 0.0002default:default
+ZTime (s): cpu = 00:00:00 ; elapsed = 00:00:03 . Memory (MB): peak = 911.242 ; gain = 0.0002default:default
 8
-,Implement Debug Cores | Checksum: 1b2f38bb6
+,Implement Debug Cores | Checksum: 2673c7029
 *common
 5
-)Logic Optimization | Checksum: 1b2f38bb6
+)Logic Optimization | Checksum: 2673c7029
 *common
 X
 
@@ -139,13 +142,13 @@ Starting %s Task
 %Done setting XDC timing constraints.
 35*timingZ38-35
 D
-8Ending PowerOpt TimerUpdates Task | Checksum: 115e12e0c
+8Ending PowerOpt TimerUpdates Task | Checksum: 14575b6eb
 *common
 ‰
 
 %s
 *constraints2r
-^Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.234 . Memory (MB): peak = 910.262 ; gain = 0.0002default:default
+^Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.282 . Memory (MB): peak = 911.242 ; gain = 0.0002default:default
 4
 Applying IDT optimizations ...
 9*pwroptZ34-9
@@ -172,29 +175,54 @@ CNumber of BRAM Ports augmented: %s newly gated: %s Total Ports: %s
 02default:default2
 42default:defaultZ34-65
 A
-5Ending Power Optimization Task | Checksum: 115e12e0c
+5Ending Power Optimization Task | Checksum: 14575b6eb
 *common
 †
 
 %s
 *constraints2o
-[Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 983.582 ; gain = 73.3202default:default
+[Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 985.113 ; gain = 73.8712default:default
 Q
 Releasing license: %s
 83*common2"
 Implementation2default:defaultZ17-83
-¿
+½
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
-262default:default2
-702default:default2
-692default:default2
+272default:default2
+12default:default2
+02default:default2
 02default:defaultZ4-41
 S
 %s completed successfully
 29*	vivadotcl2
 
 opt_design2default:defaultZ4-42
+ù
+I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
+268*common2 
+opt_design: 2default:default2
+00:00:042default:default2
+00:00:052default:default2
+985.1132default:default2
+73.8712default:defaultZ17-268
+4
+Writing XDEF routing.
+211*designutilsZ20-211
+A
+#Writing XDEF routing logical nets.
+209*designutilsZ20-209
+A
+#Writing XDEF routing special nets.
+210*designutilsZ20-210
+…
+I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
+268*common2)
+Write XDEF Complete: 2default:default2
+00:00:002default:default2 
+00:00:00.1202default:default2
+985.1132default:default2
+0.0002default:defaultZ17-268
 
 
 End Record

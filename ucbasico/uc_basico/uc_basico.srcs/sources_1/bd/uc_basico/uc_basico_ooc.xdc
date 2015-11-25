@@ -8,6 +8,6 @@
 ################################################################################
 #create_clock -name clock_name -period 10 [get_ports clock_name]
 ################################################################################
-create_clock -name clock_rtl -period 10 [get_ports clock_rtl]
+create_clock -name clock_in1 -period 10 [get_ports clock_in1]
 
 ################################################################################

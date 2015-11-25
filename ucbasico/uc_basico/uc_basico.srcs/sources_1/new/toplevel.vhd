@@ -25,11 +25,12 @@ architecture Behavioral of toplevel is
 -- declarando componente do microprocessador
 component uc_basico_wrapper is
   port (
-     clock_rtl : in STD_LOGIC;
-     gpio_led_tri_o : out STD_LOGIC_VECTOR ( 15 downto 0 );
-     gpio_sw_tri_i : in STD_LOGIC_VECTOR ( 15 downto 0 );
-     reset_rtl : in STD_LOGIC
+  clock_in1 : in STD_LOGIC;
+    gpio_rtl_LED_tri_o : out STD_LOGIC_VECTOR ( 15 downto 0 );
+    gpio_rtl_sw_tri_i : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    reset : in STD_LOGIC
   );
+ 
 end component;
 
 signal rst_interno : std_logic := '0';
@@ -37,23 +38,23 @@ signal rst_interno : std_logic := '0';
 begin
 
 -- Rst interno é borda de subida, rst externo é borda de descida!
-rst_interno <= not btnCpuReset;
+rst_interno <= btnCpuReset;
 
-gen_deb : for n in 0 to 15 generate
-    debx : debounce
-        port map(
-            clk => clk,
-            btn_in => sw(n),
-            btn_out => sw_internal(n)
-        );
- end generate gen_deb;
+--gen_deb : for n in 0 to 15 generate
+--    debx : debounce
+       -- port map(
+           -- clk => clk,
+           -- btn_in => sw(n),
+           -- btn_out => sw_internal(n)
+       -- );
+--end generate gen_deb;
 
 u1 : uc_basico_wrapper 
     port map(
-        clock_rtl          => clk,
-        gpio_led_tri_o   => led,
-        gpio_sw_tri_i    => sw,
-        reset_rtl            => rst_interno    
+        clock_in1          => clk,
+        gpio_rtl_LED_tri_o   => led,
+        gpio_rtl_sw_tri_i    => sw,
+        reset            => rst_interno
     );
 
 end Behavioral;
